@@ -28,5 +28,5 @@ void Delegate::setModelData(QWidget *editor, QAbstractItemModel *model, const QM
 }
 void Delegate::updateEditorGeometry(QWidget *editor, const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
-editor->setGeometry(option.rect);
+    editor->setGeometry(option.rect);
 }
